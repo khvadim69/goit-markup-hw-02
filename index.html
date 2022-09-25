@@ -3,54 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>HOMEWORK2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
         <nav>
-             <a href="./index.html"><span>Web</span><span>Studio</span></a>
+             <a href="./index.html" class="logo">WebStudio</a>
                 <ul>
-                    <li><a href="./index.html">Студія</a></li>
-                    <li><a href="./portfolio.html">Портфоліо</a></li>
-                    <li><a href="">Контакт</a></li>
+                    <li><a href="./index.html" class="link-studio">Студія</a></li>
+                    <li><a href="./portfolio.html" class="link-nav">Портфоліо</a></li>
+                    <li><a href="#" class="link-nav">Контакт</a></li>
                 </ul>
         </nav>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="nav-mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="nav-tel">+38 096 111 11 11</a></li>
             </ul>
         
     </header>
     <main>
         <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="button">Замовити послугу</button>
         </section>
         <section>
         <!--Чому ви обираєте нас?-->
             <ul>
                 <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="title-advantage">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="advantage">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="title-advantage">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="advantage">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="title-advantage">ПЛАНУВАННЯ</h3>
+                    <p class="advantage">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="title-advantage">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="advantage">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
     
         </section>
     <section>
-        <h2>Чим ми займаємося</h2>
+        <h2 class="title-works">Чим ми займаємося</h2>
         <ul>
             <li><img src="images/imgdesktop.jpg" alt="Для Офісу" width="320"></li>
             <li><img src="images/imgmobile.jpg" alt="Мобільні версії" width="320"></li>
@@ -58,39 +61,39 @@
         </ul>
     </section>
     <section>
-        <h2>Наша команда</h2>
+        <h2 class="title-comand">Наша команда</h2>
         <ul>
             <li>
                 <img src="images/imgIgorDemiyanenko.jpg" alt="Фото Ігор Дем'яненко" width="270">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="name">Ігор Дем'яненко</h3>
+                    <p lang="en" class="profession">Product Designer</p>
             </li>
             <li>
                 <img src="images/imgOlgaRepina.jpg" alt="Фото Ольга Репіна" width="270">
-                    <h3>Ольга Репіна</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="name">Ольга Репіна</h3>
+                    <p lang="en" class="profession">Frontend Developer</p>
             </li>
             <li>
                 <img src="images/imgNikolaiTarasov.jpg" alt="Фото Микола Тарасов" width="270">
-                    <h3>Микола Тарасов</h3>
+                    <h3 class="name">Микола Тарасов</h3>
                     <p lang="en">Marketing</p>
             </li>
             <li>
                 <img src="images/imgMikhailErmakov.jpg" alt="Фото Михайло Єрмаков" width="270">
-                    <h3>Михайло Єрмаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="name">Михайло Єрмаков</h3>
+                    <p lang="en" class="profession">UI Designer</p>
             </li>
         </ul>
     </section>
     </main>
     <footer>
         <div>
-            <a href=""><span>Web</span><span>Studio</span></a>
+            <a href="./index.html" class="logo">WebStudio</a>
             <address>
-                <span>м. Київ, пр-т Лесі Українки, 26</span>
+                <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
                 <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="adress-mail">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="adress-tel">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
