@@ -1,63 +1,33 @@
  body {
-    font-family: 'Roboto';
+    font-family: 'Roboto','Arial','Helvetica',sans-serif;
     font-style: normal;
-    color: #212121;}
-    
-.logo {
+    color: #212121;
+}
+.logo-web {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-    letter-spacing: 0.03em;color: #2196F3;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
-.logo:hover {
+.logo-studio {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
     color: #000000;
 }
-
-.link-studio {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-}
-
 .link-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-
-.nav-mail {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;}
-.nav-mail :hover,
-.nav-mail :focus {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;}
-
-.nav-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-
-}
-.nav-tel :hover,
-.nav-tel :focus {
+.link-nav:hover {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -65,7 +35,35 @@
     color: #2196F3;
 }
 
-.generaltitle {
+.link-nav:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.nav-conact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.nav-conact:hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.nav-conact:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -73,9 +71,10 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;}
-
-.button {
+    color: #FFFFFF;
+}
+.order-button { 
+    cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -84,8 +83,8 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;}
-
+    color: #FFFFFF;
+}
 .title-advantage {
     font-weight: 700;
     font-size: 14px;
@@ -93,22 +92,20 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 .advantage {
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #757575;}
-
-.title {
+    color: #757575;
+}
+.specialization-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
 }
-
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -117,64 +114,76 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
-
 .profession {
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;}
-
+    color: #757575;
+}
 .adress {
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #FFFFFF;}
-
+    color: #FFFFFF;
+}
 .contact {
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    color: rgba(255, 255, 255, 0.6);
+}
 
-.contact:hover,.contact:focus{
+.contact:hover {
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-
+.contact:focus {
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
 .button {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;
 }
-
-.button-all {
+.button :hover {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.projecttype {
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
+    background-color: #2196F3;
 }
-.projecttype {
+.button :focus {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    background-color: #2196F3;
+}
+.project-type {
     font-size: 16px;
     line-height: 30px;
     /* identical to box height, or 188% */
