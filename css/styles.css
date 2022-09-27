@@ -84,6 +84,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: #2196F3;
+}
 }
 .title-advantage {
     font-weight: 700;
@@ -161,7 +163,7 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
-.button :hover {
+.button:hover {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -169,10 +171,10 @@
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: #ffffff;
     background-color: #2196F3;
 }
-.button :focus {
+.button:focus {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -180,7 +182,7 @@
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: #ffffff;
     background-color: #2196F3;
 }
 .project-type {
