@@ -16,6 +16,9 @@ body {
     font-style: normal;
     color: var(--color-primary);
 }
+.link {
+    text-decoration: none;
+  }
 
 .logo-web {
     text-decoration: none;
@@ -141,6 +144,7 @@ body {
     color: var(--color-link-text);
 }
 .adress {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.5;
     /* or 171% */
@@ -149,6 +153,8 @@ body {
 }
 
 .contact {
+    font-style: normal;
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.5;
     /* or 171% */
