@@ -44,7 +44,7 @@ ul {
     color: var(--color-primary);
 }
 
-.link-nav:hover,.link-nav:focus {
+.link-nav:hover ,.link-nav:focus {
     color: var(--color-accent);
 }
 .link-current {color: var(--color-accent);}
@@ -92,6 +92,9 @@ ul {
 .order-button:hover, .order-button:focus {
     background: var(--color-background);
     
+}
+.order {
+    background-color: var(--color-order-section);
 }
 
 .title-advantage {
@@ -179,16 +182,14 @@ ul {
     background-color: var(--color-accent);
     
 }
-.order {
-    background-color: var(--color-order-section);
-}
+
 .projects {
     font-weight: 700;
     font-size: 16px;
     line-height: 2;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-    color: var(--color-link-text);
+    
 }
 
 .project-type {
@@ -216,5 +217,7 @@ ul {
     color:var(--color-title-secondary);
 
 }
+.probe {color: inherit;
+        color: currentColor;}
 
 
