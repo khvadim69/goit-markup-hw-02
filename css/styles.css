@@ -77,7 +77,6 @@ ul {
     font-weight: 700;
     cursor: pointer;
     font-family: inherit;
-    font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     display: flex;
@@ -129,14 +128,12 @@ ul {
 
 .name {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.17;
     /* identical to box height */
     letter-spacing: 0.03em;
 }
 
 .profession {
-    font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
@@ -169,7 +166,6 @@ ul {
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.63;
     /* identical to box height, or 162% */
     text-align: center;
@@ -185,7 +181,6 @@ ul {
 
 .projects {
     font-weight: 700;
-    font-size: 16px;
     line-height: 2;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
@@ -193,7 +188,6 @@ ul {
 }
 
 .project-type {
-    font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
